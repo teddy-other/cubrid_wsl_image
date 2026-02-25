@@ -5,7 +5,7 @@ LD_LIBRARY_PATH=$CUBRID/lib:$CUBRID/cci/lib:$LD_LIBRARY_PATH
 PATH=$CUBRID/bin:/usr/sbin:$PATH
 export LD_LIBRARY_PATH SHLIB_PATH LIBPATH PATH
 
-if [ -f /home/cubrid/entrypoint.sh ]; then
-     /home/cubrid/entrypoint.sh
-     rm /home/cubrid/entrypoint.sh
-fi
+# if [ -f /home/cubrid/entrypoint.sh ]; then
+#      /home/cubrid/entrypoint.sh
+#      rm /home/cubrid/entrypoint.sh
+# fi
